@@ -4,7 +4,7 @@ id();
 var cowsay = require("cowsay");
 
 console.log(cowsay.say({
-	text :"Hello, i'm Pauline from Wild Code School BXL" ,
+	text : id(),
 	e : "oO",
 	T : "U "
 }));
